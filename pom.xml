@@ -15,6 +15,9 @@
         <module>business/user-center</module>
         <module>geteway</module>
         <module>web</module>
+         <module>web</module>
+        <module>nft-biz</module>
+        <module>nft-admin</module>
     </modules>
     <packaging>pom</packaging>
 
