@@ -489,6 +489,19 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
         </license>
     </licenses>
+    <distributionManagement>
+        <repository>
+            <id>buba-release</id>
+            <name>root</name>
+            <url>http://192.168.216.135:8081/repository/buba-release/</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>buba-snapshot</id>
+            <name>root</name>
+            <url>http://192.168.216.135:8081/repository/buba-snapshot/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 
 </project>

@@ -4,8 +4,11 @@ server:
 spring:
   application:
     name: user-center
-#  cloud:
-#    nacos:
-#      discovery:
-#        metadata:
-#          version: zlt
+  cloud:
+    nacos:
+      server-addr: 192.168.2.36:8848
+      discovery:
+        username: nacos
+        password: nacos
+        metadata:
+          version: zlt
